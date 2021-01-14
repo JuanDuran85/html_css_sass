@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: $negro;
     height: 60px;
     display: flex;
     align-items: center;
@@ -25,24 +25,29 @@
         justify-content: flex-end;
         flex-grow: 1;
         a {
-            margin: 0 10px;
+            margin: $cero 10px;
             font-weight: 600;
             font-size: 16px;
-            color: white;
+            color: $blanco;
         }
     }
     
     &__menu {
-        font-size: 24px;
-        color: white;
+        font-size: $x-large;
+        color: $blanco;
     }
 }
-
 
 @media (max-width: 575.98px) { 
     .navbar {
         &__list {
             display: none;
+        }
+
+        &__menu {
+            &:hover {
+                color: $naranja;
+            }
         }
     }
 }
@@ -50,7 +55,12 @@
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .navbar {
         &__list {
-            visibility: hidden;
+            display: none;
+        }
+        &__menu {
+            &:hover{
+                color: $naranja;
+            }
         }
     }
 }

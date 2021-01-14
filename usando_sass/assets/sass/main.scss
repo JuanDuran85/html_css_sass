@@ -1,4 +1,10 @@
+@import './abstracts/variables';
+@import './abstracts/mixins';
 @import './base/reset';
-@import './components/navbar';
+@import './base/animations';
+@import './components/buttons';
 @import './layout/grid';
+@import './layout/header';
+@import './layout/navbar';
+@import './layout/footer';
 @import './pages/home';
