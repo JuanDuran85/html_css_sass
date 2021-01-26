@@ -1,3 +1,703 @@
-*{font-family:"Poppins",sans-serif;margin:0;padding:0;list-style:none;text-decoration:none;-webkit-box-sizing:border-box;box-sizing:border-box}@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes traslate{0%{-webkit-transform:translateX(150px);transform:translateX(150px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes traslate{0%{-webkit-transform:translateX(150px);transform:translateX(150px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}.footer__item .button{background-color:#FFAF6D;color:#060606;padding:2px;border-radius:5px;font-size:16px}.footer__item .button:hover{background-color:#fff}.row{display:grid;grid-template-columns:repeat(12, 1fr);grid-column-gap:1rem;grid-row-gap:2rem}.col-12{grid-column:span 12}.col-11{grid-column:span 11}.col-10{grid-column:span 10}.col-9{grid-column:span 9}.col-8{grid-column:span 8}.col-7{grid-column:span 7}.col-6{grid-column:span 6}.col-5{grid-column:span 5}.col-4{grid-column:span 4}.col-3{grid-column:span 3}.col-2{grid-column:span 2}.col-1{grid-column:span 1}@media (min-width: 768px){.col-sm-12{grid-column:span 12}.col-sm-11{grid-column:span 11}.col-sm-10{grid-column:span 10}.col-sm-9{grid-column:span 9}.col-sm-8{grid-column:span 8}.col-sm-7{grid-column:span 7}.col-sm-6{grid-column:span 6}.col-sm-5{grid-column:span 5}.col-sm-4{grid-column:span 4}.col-sm-3{grid-column:span 3}.col-sm-2{grid-column:span 2}.col-sm-1{grid-column:span 1}}@media (min-width: 992px){.col-md-12{grid-column:span 12}.col-md-11{grid-column:span 11}.col-md-10{grid-column:span 10}.col-md-9{grid-column:span 9}.col-md-8{grid-column:span 8}.col-md-7{grid-column:span 7}.col-md-6{grid-column:span 6}.col-md-5{grid-column:span 5}.col-md-4{grid-column:span 4}.col-md-3{grid-column:span 3}.col-md-2{grid-column:span 2}.col-md-1{grid-column:span 1}}@media (min-width: 1200px){.col-lg-12{grid-column:span 12}.col-lg-11{grid-column:span 11}.col-lg-10{grid-column:span 10}.col-lg-9{grid-column:span 9}.col-lg-8{grid-column:span 8}.col-lg-7{grid-column:span 7}.col-lg-6{grid-column:span 6}.col-lg-5{grid-column:span 5}.col-lg-4{grid-column:span 4}.col-lg-3{grid-column:span 3}.col-lg-2{grid-column:span 2}.col-lg-1{grid-column:span 1}}.header{margin:0 auto;max-width:800px}.navbar{background-color:#000;height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:start;padding:20px;width:100%}.navbar__logo img{width:40px;height:40px}.navbar__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.navbar__list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.navbar__list a{margin:0 10px;font-weight:600;font-size:16px;color:#fff}.navbar__menu{font-size:30px;color:#fff}@media (max-width: 575.98px){.navbar__list{display:none}.navbar__menu:hover{color:orange}}@media (min-width: 576px) and (max-width: 767.98px){.navbar__list{display:none}.navbar__menu:hover{color:orange}}@media (min-width: 768px) and (max-width: 991.98px){.navbar__menu{display:none}}@media (min-width: 992px) and (max-width: 1199.98px){.navbar__menu{display:none}}@media (min-width: 1200px){.navbar__menu{display:none}}.footer{background-color:#000;color:#fff;padding:40px;margin-top:20px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:justify;align-content:space-between}.footer__list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:justify;align-content:space-between}.footer__item{margin:0 20px;color:#fff}.footer__item a:visited{color:#fff}.footer__item .input{background-color:#fff;color:#060606;padding:2px;width:190px;border-radius:5px;font-size:16px}.footer__item .input:focus{background-color:#FFAF6D}@media (max-width: 575.98px){.footer{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.footer__text{text-align:center}.footer__list{margin-top:10px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.footer__item{margin-top:10px}.footer__item .button,.footer__item .input{display:block;margin:5px auto}}@media (min-width: 576px) and (max-width: 767.98px){.footer{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.footer__text{text-align:center}.footer__list{margin-top:10px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.footer__item{margin-top:10px}.footer__item .button,.footer__item .input{margin:0 auto}}@media (min-width: 768px) and (max-width: 991.98px){.footer{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.footer__text{text-align:center}.footer__list{margin-top:10px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.footer__item{margin-top:10px}.footer__item .button,.footer__item .input{margin:0 auto}}.main__section{padding:20px;border:1px solid #000;margin:0 10px}.main__aside{padding:20px;border:1px solid #000;margin:0 10px}.main__aside figure{text-align:center}.main__aside figure img{border:1px solid #000;width:220px;height:220px;border-radius:100%}.main__aside--titulo{font-family:"Ubuntu",sans-serif;font-weight:700;margin:10px 0;text-transform:uppercase;text-align:center}.main__aside--subtitulo{text-align:center;font-weight:700;color:#fff;background-color:#28231D;margin:10px 0}.main__aside--iconos{text-align:center;word-spacing:10px;font-size:20px}.main__aside--parrafo{font-family:"Ubuntu",sans-serif;text-align:justify;margin:10px 0;line-height:1.8}.main__aside--list li{list-style-type:circle;list-style-position:inside}.main__aside--imagen{width:250px;height:250px;margin:30px auto}.main__aside .tuerca__interna,.main__aside .tuerca__externa{-webkit-animation:3s rotate infinite linear;animation:3s rotate infinite linear;-webkit-transform-origin:80% 80%;transform-origin:80% 80%}.main__aside .etiqueta{-webkit-animation:1.9s traslate infinite linear alternate;animation:1.9s traslate infinite linear alternate}.main__article{padding:10px;margin:10px 0;border:1px dotted #000}.main__article--parrafo{font-family:"Ubuntu",sans-serif;text-align:justify;margin:10px 0;line-height:1.8}.main__article--titulo,.main__article--subtitulo{font-family:"Ubuntu",sans-serif;margin:10px 0}.main__article--iconos a{margin-right:10px}.main__article--iconos a:visited{color:#000}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes traslate {
+  0% {
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes traslate {
+  0% {
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/components\/_buttons\.scss}line{font-family:\000032}}
+.footer__item .button {
+  background-color: #FFAF6D;
+  color: #060606;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/components\/_buttons\.scss}line{font-family:\000038}}
+.footer__item .button:hover {
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000031}}
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+}
+
+/*========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000310}}
+.col-12 {
+  grid-column: span 12;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000314}}
+.col-11 {
+  grid-column: span 11;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000318}}
+.col-10 {
+  grid-column: span 10;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000322}}
+.col-9 {
+  grid-column: span 9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000326}}
+.col-8 {
+  grid-column: span 8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000330}}
+.col-7 {
+  grid-column: span 7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000334}}
+.col-6 {
+  grid-column: span 6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000338}}
+.col-5 {
+  grid-column: span 5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000342}}
+.col-4 {
+  grid-column: span 4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000346}}
+.col-3 {
+  grid-column: span 3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000350}}
+.col-2 {
+  grid-column: span 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000354}}
+.col-1 {
+  grid-column: span 1;
+}
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000359}}
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000363}}
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000367}}
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000371}}
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000375}}
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000379}}
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000383}}
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000387}}
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000391}}
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000395}}
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000399}}
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003103}}
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003109}}
+  .col-md-12 {
+    grid-column: span 12;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003113}}
+  .col-md-11 {
+    grid-column: span 11;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003117}}
+  .col-md-10 {
+    grid-column: span 10;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003121}}
+  .col-md-9 {
+    grid-column: span 9;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003125}}
+  .col-md-8 {
+    grid-column: span 8;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003129}}
+  .col-md-7 {
+    grid-column: span 7;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003133}}
+  .col-md-6 {
+    grid-column: span 6;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003137}}
+  .col-md-5 {
+    grid-column: span 5;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003141}}
+  .col-md-4 {
+    grid-column: span 4;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003145}}
+  .col-md-3 {
+    grid-column: span 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003149}}
+  .col-md-2 {
+    grid-column: span 2;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003153}}
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003159}}
+  .col-lg-12 {
+    grid-column: span 12;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003163}}
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003167}}
+  .col-lg-10 {
+    grid-column: span 10;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003171}}
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003175}}
+  .col-lg-8 {
+    grid-column: span 8;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003179}}
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003183}}
+  .col-lg-6 {
+    grid-column: span 6;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003187}}
+  .col-lg-5 {
+    grid-column: span 5;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003191}}
+  .col-lg-4 {
+    grid-column: span 4;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003195}}
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003199}}
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003203}}
+  .col-lg-1 {
+    grid-column: span 1;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\000031}}
+.navbar {
+  background-color: black;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 20px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000311}}
+.navbar__logo img {
+  width: 40px;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000317}}
+.navbar__colapsable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000323}}
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000327}}
+.navbar__list a {
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000335}}
+.navbar__menu {
+  font-size: 30px;
+  color: white;
+  margin-left: auto;
+}
+
+@media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000344}}
+  .navbar__list {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000349}}
+  .navbar__menu:hover {
+    color: orange;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000358}}
+  .navbar__list {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000362}}
+  .navbar__menu:hover {
+    color: orange;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000371}}
+  .navbar__menu {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000379}}
+  .navbar__menu {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_navbar\.scss}line{font-family:\0000387}}
+  .navbar__menu {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_header\.scss}line{font-family:\000031}}
+.header {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000038}}
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000312}}
+.footer__item {
+  margin: 0 20px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000317}}
+.footer__item a:visited {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000322}}
+.footer__item .input {
+  background-color: white;
+  color: #060606;
+  padding: 2px;
+  width: 190px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000329}}
+.footer__item .input:focus {
+  background-color: #FFAF6D;
+}
+
+@media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000337}}
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000340}}
+  .footer__text {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000344}}
+  .footer__list {
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000349}}
+  .footer__item {
+    margin-top: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000352}}
+  .footer__item .button, .footer__item .input {
+    display: block;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000361}}
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000364}}
+  .footer__text {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000368}}
+  .footer__list {
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000373}}
+  .footer__item {
+    margin-top: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000375}}
+  .footer__item .button, .footer__item .input {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000383}}
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000386}}
+  .footer__text {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000390}}
+  .footer__list {
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000395}}
+  .footer__item {
+    margin-top: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000397}}
+  .footer__item .button, .footer__item .input {
+    margin: 0 auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\000032}}
+.main__section {
+  padding: 20px;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\000038}}
+.main__aside {
+  padding: 20px;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000313}}
+.main__aside figure {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000315}}
+.main__aside figure img {
+  border: 1px solid black;
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000323}}
+.main__aside__titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000331}}
+.main__aside__subtitulo {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  background-color: #28231D;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000339}}
+.main__aside__iconos {
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000345}}
+.main__aside__parrafo {
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 1.8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000353}}
+.main__aside__list li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000359}}
+.main__aside__imagen {
+  width: 250px;
+  height: 250px;
+  margin: 30px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000366}}
+.main__aside .tuerca__interna, .main__aside .tuerca__externa {
+  -webkit-animation: 3s rotate infinite linear;
+          animation: 3s rotate infinite linear;
+  -webkit-transform-origin: 80% 80%;
+          transform-origin: 80% 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000372}}
+.main__aside .etiqueta {
+  -webkit-animation: 1.9s traslate infinite linear alternate;
+          animation: 1.9s traslate infinite linear alternate;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000377}}
+.main__article {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px dotted black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000382}}
+.main__article__parrafo__size-small {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 1.8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000390}}
+.main__article__titulo, .main__article__subtitulo {
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000396}}
+.main__article__iconos a {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Juan\/codigos\/ejemplos_ejercicios_cursos\/ejercicios_html-css\/Mi\%20Emprendimiento\%20Web\%202020\/assets\/sass\/pages\/_home\.scss}line{font-family:\0000399}}
+.main__article__iconos a:visited {
+  color: black;
+}
 
 /*# sourceMappingURL=main.css.map */

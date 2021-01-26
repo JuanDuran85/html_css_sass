@@ -20,7 +20,7 @@
             }
         }
 
-        &--titulo {
+        &__titulo {
             font-family: $ubuntu;
             font-weight: 700;
             margin: 10px $cero;
@@ -28,7 +28,7 @@
             text-align: center;
         }
 
-        &--subtitulo {
+        &__subtitulo {
             text-align: center;
             font-weight: 700;
             color: $blanco;
@@ -36,27 +36,27 @@
             margin: 10px $cero;
         }
 
-        &--iconos {
+        &__iconos {
             text-align: center;
             word-spacing: 10px;
             font-size: $large;
         }
 
-        &--parrafo{
+        &__parrafo{
             font-family: $ubuntu;
             text-align: justify;
             margin: 10px $cero;
             line-height: 1.8;    
         }
 
-        &--list {
+        &__list {
             li {
                 list-style-type: circle;
                 list-style-position: inside;
             }
         }
 
-        &--imagen {
+        &__imagen {
             width: 250px;
             height: 250px;
             margin: 30px auto;
@@ -79,19 +79,20 @@
         margin: 10px $cero;
         border: 1px dotted $negro;
 
-        &--parrafo{
+        &__parrafo__size-small{
             font-family: $ubuntu;
+            font-size: $small;
             text-align: justify;
             margin: 10px $cero;
             line-height: 1.8;    
         }
 
-        &--titulo, &--subtitulo {
+        &__titulo, &__subtitulo {
             font-family: $ubuntu;
             margin: 10px $cero;
         }
 
-        &--iconos {
+        &__iconos {
             a {
                 margin-right: 10px;
 

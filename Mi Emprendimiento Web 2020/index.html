@@ -17,19 +17,21 @@
         <div class="navbar__logo">
             <img src="./assets/img/logo.svg" alt="logotipo">
         </div>
-        <div class="navbar__container">
-            <ul class="navbar__list">
-                <li class="navbar__item">
-                    <a href="#">Acerca de</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#">Cursos</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#">Precios</a>
-                </li>
-            </ul>
+        <div class="navbar__colapsable">
             <label for="menu" class="navbar__menu"><i class="fas fa-bars"></i></label>
+            <div class="navbar__container">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#">Acerca de</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Cursos</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Precios</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <header class="header">
@@ -41,10 +43,10 @@
                 <figure>
                     <img src="./assets/img/html-y-cssb-.jpg" alt="post" width="100%">
                 </figure>
-                <h2 class="main__article--titulo">HTML y CSS para principiantes.</h2>
-                <p class="main__article--parrafo">HTML y CSS son dos herramientas importantes para dar inicio en el mundo del desarrollo web. Por lo tanto, en este curso aprenderás todo sobre HTML y CSS, desde lo más básico hasta un nivel intermedio, logrando desarrollar tu primera página web responsiva, sin la necesidad de aplicar librerías externas para CSS.</p>
-                <h3 class="main__article--subtitulo">Instructor: Manuel González</h3>
-                <p class="main__article--iconos">
+                <h2 class="main__article__titulo">HTML y CSS para principiantes.</h2>
+                <p class="main__article__parrafo__size-small">HTML y CSS son dos herramientas importantes para dar inicio en el mundo del desarrollo web. Por lo tanto, en este curso aprenderás todo sobre HTML y CSS, desde lo más básico hasta un nivel intermedio, logrando desarrollar tu primera página web responsiva, sin la necesidad de aplicar librerías externas para CSS.</p>
+                <h3 class="main__article__subtitulo">Instructor: Manuel González</h3>
+                <p class="main__article__iconos">
                     <a href="#">
                         <i class="far fa-thumbs-up"> 1</i>
                     </a> 
@@ -63,10 +65,10 @@
                 <figure>
                     <img src="./assets/img/sass.png" alt="post" width="100%">
                 </figure>
-                <h2 class="main__article--titulo">Estilos con SASS.</h2>
-                <p class="main__article--parrafo">SASS es una herramienta importante hoy en día para todo desarrollador web, ya que permite crear estilos mas ordenados, eficientes y con menos líneas de código. Por ello, en este curso aprenderás todo lo necesario para crear hojas de estilos desde la sintaxis de SCSS, implementando técnicas propias de SASS.</p>
-                <h3 class="main__article--subtitulo">Instructor: Manuel González</h3>
-                <p class="main__article--iconos">
+                <h2 class="main__article__titulo">Estilos con SASS.</h2>
+                <p class="main__article__parrafo__size-small">SASS es una herramienta importante hoy en día para todo desarrollador web, ya que permite crear estilos mas ordenados, eficientes y con menos líneas de código. Por ello, en este curso aprenderás todo lo necesario para crear hojas de estilos desde la sintaxis de SCSS, implementando técnicas propias de SASS.</p>
+                <h3 class="main__article__subtitulo">Instructor: Manuel González</h3>
+                <p class="main__article__iconos">
                     <a href="#">
                         <i class="far fa-thumbs-up"> 1</i>
                     </a> 
@@ -86,15 +88,15 @@
             <figure>
                 <p><img src="./assets/img/web-development.png" alt="logo cursos" /></p>
             </figure>
-            <h3 class="main__aside--titulo">Cursos 2020 Ltda</h3>
-            <p class="main__aside--iconos">				
+            <h3 class="main__aside__titulo">Cursos 2020 Ltda</h3>
+            <p class="main__aside__iconos">				
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-github"></i>
             </p>
-            <p class="main__aside--parrafo">Cursos 2020 Ltda, es una empresa especialista en capacitaciones de personal en Desarrollo Web. Partiendo desde lo más básico de HTML y CSS, hasta lo más complejo con SASS y JavaScript. Igualmente se ofrecen cursos más especializados para el BackEnd, implementación de frameworks para el frontEnd, entre otros.</p>
-            <h3 class="main__aside--subtitulo">Más Cursos</h3>
-            <ul class="main__aside--list">
+            <p class="main__aside__parrafo">Cursos 2020 Ltda, es una empresa especialista en capacitaciones de personal en Desarrollo Web. Partiendo desde lo más básico de HTML y CSS, hasta lo más complejo con SASS y JavaScript. Igualmente se ofrecen cursos más especializados para el BackEnd, implementación de frameworks para el frontEnd, entre otros.</p>
+            <h3 class="main__aside__subtitulo">Más Cursos</h3>
+            <ul class="main__aside__list">
                 <li><a href="#">Analítica Web (3)</a></li>
                 <li><a href="#">Diseño Web (4)</a></li>
                 <li><a href="#">Desarrollo BackEnd (9)</a></li>
@@ -105,7 +107,7 @@
                 <li><a href="#">JavaScript (5)</a></li>
                 <li><a href="#">VueJS (1)</a></li>
             </ul>
-            <div class="main__aside--imagen">
+            <div class="main__aside__imagen">
                 <svg viewbox="-2 0 511 512">
                     <path d="m415.433594 460.488281h-257.460938c-13.511718 0-24.460937-10.949219-24.460937-24.460937v-404.066406c0-13.507813 10.949219-24.460938 24.460937-24.460938h257.460938c13.507812 0 24.460937 10.953125 24.460937 24.460938v404.066406c0 13.511718-10.953125 24.460937-24.460937 24.460937zm0 0" fill="#426175"/>
                     <path d="m415.433594 7.5h-48.25c13.507812 0 24.460937 10.953125 24.460937 24.460938v404.066406c0 13.511718-10.953125 24.464844-24.460937 24.464844h48.25c13.507812 0 24.460937-10.953126 24.460937-24.464844v-404.066406c0-13.507813-10.953125-24.460938-24.460937-24.460938zm0 0" fill="#2c4456"/>
